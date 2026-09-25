@@ -1116,7 +1116,13 @@ footer {
 }
 
 @media (max-width: 560px) {
-    .nav-cta { display: none; }
+      .nav-cta {
+      padding: 8px 10px;
+      font-size: 0;
+      gap: 0;
+  }
+
+  .nav-cta i { font-size: .85rem; }
 
     .hero h1 {
         font-size: clamp(3.3rem, 16vw, 5rem);
